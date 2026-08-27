@@ -52,9 +52,9 @@
   <div class="wrap">
     <header>
       <h1>贵金属同行价差对比表</h1>
-      <span class="time">采集时间：2026-08-27 12:20:26</span>
+      <span class="time">采集时间：2026-08-27 12:21:47</span>
     </header>
-    <div class="bench">基准 (金交所/融通金页面): 黄金 Au9999 回购 999.20 / 销售 999.40 元/克 | 白银 T+D 回购 16767 / 销售 16780 元/千克 | 铂金 9995 回购 -- / 销售 458.52 元/克</div>
+    <div class="bench">基准 (金交所/融通金页面): 黄金 Au9999 回购 999.10 / 销售 999.20 元/克 | 白银 T+D 回购 16767 / 销售 16780 元/千克 | 铂金 9995 回购 -- / 销售 458.52 元/克</div>
     <p class="legend">价差 = 同行价格 - 基准价格，🔴正值(高于基准) 🟢负值(低于基准) ⚪持平<br>基准 白银T+D 单位为 元/千克，表格中已转为 元/克 (÷1000)</p>
     
     <section class="card">
@@ -62,7 +62,7 @@
       <div class="table-wrap">
         <table>
           <thead><tr><th>主体</th><th>回购价</th><th>回购价差</th><th>销售价</th><th>销售价差</th><th>自身价差</th><th>备注</th></tr></thead>
-          <tbody><tr><td><strong>黄金9999</strong></td><td>999.20</td><td class="muted">--</td><td>999.40</td><td class="muted">--</td><td class="muted">--</td><td>基准</td></tr><tr><td>融通金</td><td>995.50</td><td class="down">-3.70</td><td>997.50</td><td class="down">-1.90</td><td>2.00</td><td class="muted">--</td></tr><tr><td>厚德金</td><td>996.20</td><td class="down">-3.00</td><td>1002.40</td><td class="up">+3.00</td><td>6.20</td><td class="muted">--</td></tr><tr><td>领丰金</td><td>996.20</td><td class="down">-3.00</td><td>999.90</td><td class="up">+0.50</td><td>3.70</td><td class="muted">--</td></tr><tr><td>粤鑫金</td><td>998.00</td><td class="down">-1.20</td><td>1004.20</td><td class="up">+4.80</td><td>6.20</td><td class="muted">--</td></tr><tr><td>百德金</td><td>995.49</td><td class="down">-3.71</td><td>999.97</td><td class="up">+0.57</td><td>4.48</td><td class="muted">--</td></tr><tr><td>菜百</td><td class="muted">--</td><td class="muted">--</td><td>999.40</td><td class="flat">0.00</td><td class="muted">--</td><td>仅销售价(投资基础金价)</td></tr><tr><td>粤豪</td><td>993.50</td><td class="down">-5.70</td><td>1002.40</td><td class="up">+3.00</td><td>8.90</td><td class="muted">--</td></tr></tbody>
+          <tbody><tr><td><strong>黄金9999</strong></td><td>999.10</td><td class="muted">--</td><td>999.20</td><td class="muted">--</td><td class="muted">--</td><td>基准</td></tr><tr><td>融通金</td><td>995.49</td><td class="down">-3.61</td><td>997.49</td><td class="down">-1.71</td><td>2.00</td><td class="muted">--</td></tr><tr><td>厚德金</td><td>996.10</td><td class="down">-3.00</td><td>1002.20</td><td class="up">+3.00</td><td>6.10</td><td class="muted">--</td></tr><tr><td>领丰金</td><td>996.10</td><td class="down">-3.00</td><td>999.70</td><td class="up">+0.50</td><td>3.60</td><td class="muted">--</td></tr><tr><td>粤鑫金</td><td>998.00</td><td class="down">-1.10</td><td>1004.20</td><td class="up">+5.00</td><td>6.20</td><td class="muted">--</td></tr><tr><td>百德金</td><td>995.49</td><td class="down">-3.61</td><td>999.84</td><td class="up">+0.64</td><td>4.35</td><td class="muted">--</td></tr><tr><td>菜百</td><td class="muted">--</td><td class="muted">--</td><td>999.40</td><td class="up">+0.20</td><td class="muted">--</td><td>仅销售价(投资基础金价)</td></tr><tr><td>粤豪</td><td>993.50</td><td class="down">-5.60</td><td>1002.20</td><td class="up">+3.00</td><td>8.70</td><td class="muted">--</td></tr></tbody>
         </table>
       </div>
     </section>
@@ -85,7 +85,7 @@
       </div>
     </section>
     <section class="card notes"><h2>说明</h2><ul><li>**菜百**: 仅提供黄金投资基础金价(销售价)，白银/铂金不参与对比</li><li>**粤豪**: 抓取黄金和铂金的销售/回购价格，通过 WebSocket 拦截解压获取</li><li>**粤鑫金**: 微信小程序，数据通过 fetch_yuexinjin_screenshot.py 自动 OCR 获取</li><li>白银T+D 基准单位为 元/千克，已转换为 元/克 (÷1000) 进行对比</li><li>所有价格为同一时刻并行抓取，但因网络延迟可能存在数秒偏差</li><li>运行方式: `python gold_scraper.py`</li></ul></section>
-    <footer>本报告由本地价差收集程序自动生成 · 页面生成于 2026-08-27 12:20:43</footer>
+    <footer>本报告由本地价差收集程序自动生成 · 页面生成于 2026-08-27 12:22:04</footer>
   </div>
 </body>
 </html>
